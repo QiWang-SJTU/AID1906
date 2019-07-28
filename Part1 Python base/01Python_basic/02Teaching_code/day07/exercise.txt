@@ -1,0 +1,35 @@
+day07作业
+1. 三合一
+2. 当天练习独立完成
+3. 定义在终端中打印二维列表的函数
+    for r in range(len(list01)):
+        for item in list01[r]:
+            print(item, end=" ")
+        print()
+4. 定义根据分钟,小时,天计算总秒数的函数
+    minute = int(input("请输入分钟："))
+    hour = int(input("请输入小时数："))
+    day = int(input("请输入天数："))
+    result = minute * 60 + hour * 60 * 60 + day * 24 * 60 * 60
+    print("总秒数数是:" + str(result) +"。")
+5. (扩展)
+    实现方阵转置.(不定义函数)
+        思想见图..
+6. 看书:
+    python入门到实践：第8章
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
