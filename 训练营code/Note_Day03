@@ -1,0 +1,26 @@
+序列函数
+len()
+max()
+min()
+str()
+int()
+float()
+
+
+ord() 看字符的ASCII码
+
+bin() 把整数转换成二进制字符串
+hex() 十六进制
+oct() 八进制
+
+字符串常用方法
+对象.属性
+
+s.islower()
+s.isupper()
+s.lower()
+s.upper()
+s.strip() 去掉空格
+s.find('字符串'，开始索引，结束索引)
+s.count()
+s.replace(old,new)

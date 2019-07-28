@@ -1,0 +1,101 @@
+普陀区长寿路恒达大厦10楼
+密码：1  
+陈丹(丹姐)：Linux(Linux云计算)+Python(ai人工智能)+网安(网络安全)
+编程语言：java c++  c   go  python（胶水语言）
+
+温馨提示：
+垃圾分类
+
+VMware Workstation：(虚拟机)
+西游记：
+释放鼠标
+ctrl + alt 
+
+linux默认用户
+root(超级管理员)流氓用户
+密码：123456
+密码：
+大小写
+字母
+数字
+特殊符号
+
+关机：
+init   0
+获取命令行界面
+$   普通用户
+#   管理员用户
+~	当前用户家目录
+[root@localhost ~]#
+[当前系统用户名@主机名 工作目录]$
+查看及切换目录
+pwd: print working Directory
+pwd：查看当前工作目录
+
+cd:切换工作目录
+格式：cd   [目标文件夹]
+ls - List 
+  格式：ls  [选项]  [目标文件夹]
+  常用命令选项：
+  -l：以长格式显示
+  -a: 显示隐藏文件
+  -A：显示隐藏文件(不显示.和..)
+  -h: 以易读的单位显示文件大小
+  -d: 显示目录文件信息
+  -R：递归显示
+ls  -lh   /root/
+ls  -a    /root
+ls  -A    /root/
+----------------------------
+dr-xr-x---. 14 root root 4096 6月  24 21:55 /root/
+[root@localhost ~]# ls -ld /
+dr-xr-xr-x. 17 root root 224 6月  24 19:21 /
+[root@localhost ~]# ls -ld /opt/
+drwxr-xr-x. 3 root root 16 6月  24 19:16 /opt/
+[root@localhost ~]# ls -ld /etc/
+hostname	 查看主机名(修改主机名[零时]) 
+创建文档：
+mkdir  - Make  Directory
+	格式：mkdir   [/路径/]目录名
+	-p： 递归创建 
+	在/opt/haha
+			   xixi
+				   lele 
+						hehe
+							heihei
+									yaya
+
+touch	用途：新建空文档   
+		格式：touch 文件名
+
+/		根目录[Linux系统顶级目录]
+/bin    存放常用命令
+/boot   存放Linux系统启动的核心文件
+/etc    存放所有系统管理所需要的配置文件和子目录
+/home   存放普通用户的家目录
+/mnt    挂载目录使用
+/root   root用户的家目录
+/opt    该目录是为了让用户安装软件使用
+/proc   该目录是一个虚拟目录,存放cpu,内存信息
+
+touch 1.txt 
+vim 1.txt 
+	i(insert)  
+			输入内容
+					
+					按esc(退出插入模式)
+										按 shift+:
+													输入：wq!  write  quit   !强制保存
+
+
+
+
+
+
+
+
+
+
+
+
+
