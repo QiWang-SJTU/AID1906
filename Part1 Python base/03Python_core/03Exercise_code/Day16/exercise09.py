@@ -1,3 +1,4 @@
+# 生成器函数
 def my_range(end):
     number = -1
     while number < end - 1:
