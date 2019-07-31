@@ -37,7 +37,7 @@ print(o.a)
 # func = lambda obj:obj.a = 100
 
 # lambda 只支持一条语句
-def fun01(a,b):
+def fun02(a,b):
     if a % 2 == 0:
         print(a+b)
 
